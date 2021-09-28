@@ -3,4 +3,4 @@ project(tutorial C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(tutorial main.c Operators.c Operators.h)
+add_executable(tutorial main.c)
