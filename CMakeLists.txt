@@ -3,4 +3,4 @@ project(tutorial C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(tutorial main.c mmm.c switchcase.c header/switchcase.h)
+add_executable(tutorial main.c mmm.c switchcase.c header/switchcase.h ifstatement.c ifstatement.c ifstatementcalculator.c header/ifstatementcalculator.h)

@@ -128,6 +128,54 @@ tutorial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/build
 .PHONY : tutorial/fast
 
+ifstatement.obj: ifstatement.c.obj
+.PHONY : ifstatement.obj
+
+# target to build an object file
+ifstatement.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/ifstatement.c.obj
+.PHONY : ifstatement.c.obj
+
+ifstatement.i: ifstatement.c.i
+.PHONY : ifstatement.i
+
+# target to preprocess a source file
+ifstatement.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/ifstatement.c.i
+.PHONY : ifstatement.c.i
+
+ifstatement.s: ifstatement.c.s
+.PHONY : ifstatement.s
+
+# target to generate assembly for a file
+ifstatement.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/ifstatement.c.s
+.PHONY : ifstatement.c.s
+
+ifstatementcalculator.obj: ifstatementcalculator.c.obj
+.PHONY : ifstatementcalculator.obj
+
+# target to build an object file
+ifstatementcalculator.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/ifstatementcalculator.c.obj
+.PHONY : ifstatementcalculator.c.obj
+
+ifstatementcalculator.i: ifstatementcalculator.c.i
+.PHONY : ifstatementcalculator.i
+
+# target to preprocess a source file
+ifstatementcalculator.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/ifstatementcalculator.c.i
+.PHONY : ifstatementcalculator.c.i
+
+ifstatementcalculator.s: ifstatementcalculator.c.s
+.PHONY : ifstatementcalculator.s
+
+# target to generate assembly for a file
+ifstatementcalculator.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/ifstatementcalculator.c.s
+.PHONY : ifstatementcalculator.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -209,6 +257,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... tutorial
+	@echo ... ifstatement.obj
+	@echo ... ifstatement.i
+	@echo ... ifstatement.s
+	@echo ... ifstatementcalculator.obj
+	@echo ... ifstatementcalculator.i
+	@echo ... ifstatementcalculator.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

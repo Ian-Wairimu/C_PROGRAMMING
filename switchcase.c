@@ -1,6 +1,6 @@
 #include "header/switchcase.h"
 
-int main1(){
+int main2(){
     int x, y;
     char z;
     printf("Hey?\n");

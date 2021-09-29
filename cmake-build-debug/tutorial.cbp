@@ -77,6 +77,15 @@
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/header/switchcase.h">
 			<Option target="tutorial"/>
 		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/ifstatement.c">
+			<Option target="tutorial"/>
+		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/ifstatementcalculator.c">
+			<Option target="tutorial"/>
+		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/ifstatementcalculator.h">
+			<Option target="tutorial"/>
+		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/main.c">
 			<Option target="tutorial"/>
 		</Unit>
