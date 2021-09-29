@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tutorial.dir/Operators.c.obj"
   "CMakeFiles/tutorial.dir/main.c.obj"
+  "CMakeFiles/tutorial.dir/mmm.c.obj"
+  "CMakeFiles/tutorial.dir/switchcase.c.obj"
   "libtutorial.dll.a"
   "tutorial.exe"
   "tutorial.exe.manifest"

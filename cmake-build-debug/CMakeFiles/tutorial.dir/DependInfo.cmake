@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Student5/CLionProjects/C_PROGRAMMING/Operators.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/Operators.c.obj"
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/main.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/main.c.obj"
+  "C:/Users/Student5/CLionProjects/C_PROGRAMMING/mmm.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/mmm.c.obj"
+  "C:/Users/Student5/CLionProjects/C_PROGRAMMING/switchcase.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/switchcase.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

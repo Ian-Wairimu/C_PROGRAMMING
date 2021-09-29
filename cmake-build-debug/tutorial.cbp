@@ -74,13 +74,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/Operators.c">
-			<Option target="tutorial"/>
-		</Unit>
-		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/Operators.h">
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/header/switchcase.h">
 			<Option target="tutorial"/>
 		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/main.c">
+			<Option target="tutorial"/>
+		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/mmm.c">
+			<Option target="tutorial"/>
+		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/switchcase.c">
 			<Option target="tutorial"/>
 		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/CMakeLists.txt">

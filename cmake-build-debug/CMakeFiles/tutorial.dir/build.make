@@ -78,34 +78,49 @@ CMakeFiles/tutorial.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tutorial.dir/main.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Student5\CLionProjects\C_PROGRAMMING\main.c -o CMakeFiles\tutorial.dir\main.c.s
 
-CMakeFiles/tutorial.dir/Operators.c.obj: CMakeFiles/tutorial.dir/flags.make
-CMakeFiles/tutorial.dir/Operators.c.obj: ../Operators.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Student5\CLionProjects\C_PROGRAMMING\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/tutorial.dir/Operators.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\tutorial.dir\Operators.c.obj -c C:\Users\Student5\CLionProjects\C_PROGRAMMING\Operators.c
+CMakeFiles/tutorial.dir/mmm.c.obj: CMakeFiles/tutorial.dir/flags.make
+CMakeFiles/tutorial.dir/mmm.c.obj: ../mmm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Student5\CLionProjects\C_PROGRAMMING\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/tutorial.dir/mmm.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\tutorial.dir\mmm.c.obj -c C:\Users\Student5\CLionProjects\C_PROGRAMMING\mmm.c
 
-CMakeFiles/tutorial.dir/Operators.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tutorial.dir/Operators.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Student5\CLionProjects\C_PROGRAMMING\Operators.c > CMakeFiles\tutorial.dir\Operators.c.i
+CMakeFiles/tutorial.dir/mmm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tutorial.dir/mmm.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Student5\CLionProjects\C_PROGRAMMING\mmm.c > CMakeFiles\tutorial.dir\mmm.c.i
 
-CMakeFiles/tutorial.dir/Operators.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tutorial.dir/Operators.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Student5\CLionProjects\C_PROGRAMMING\Operators.c -o CMakeFiles\tutorial.dir\Operators.c.s
+CMakeFiles/tutorial.dir/mmm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tutorial.dir/mmm.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Student5\CLionProjects\C_PROGRAMMING\mmm.c -o CMakeFiles\tutorial.dir\mmm.c.s
+
+CMakeFiles/tutorial.dir/switchcase.c.obj: CMakeFiles/tutorial.dir/flags.make
+CMakeFiles/tutorial.dir/switchcase.c.obj: ../switchcase.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Student5\CLionProjects\C_PROGRAMMING\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/tutorial.dir/switchcase.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\tutorial.dir\switchcase.c.obj -c C:\Users\Student5\CLionProjects\C_PROGRAMMING\switchcase.c
+
+CMakeFiles/tutorial.dir/switchcase.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tutorial.dir/switchcase.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Student5\CLionProjects\C_PROGRAMMING\switchcase.c > CMakeFiles\tutorial.dir\switchcase.c.i
+
+CMakeFiles/tutorial.dir/switchcase.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tutorial.dir/switchcase.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Student5\CLionProjects\C_PROGRAMMING\switchcase.c -o CMakeFiles\tutorial.dir\switchcase.c.s
 
 # Object files for target tutorial
 tutorial_OBJECTS = \
 "CMakeFiles/tutorial.dir/main.c.obj" \
-"CMakeFiles/tutorial.dir/Operators.c.obj"
+"CMakeFiles/tutorial.dir/mmm.c.obj" \
+"CMakeFiles/tutorial.dir/switchcase.c.obj"
 
 # External object files for target tutorial
 tutorial_EXTERNAL_OBJECTS =
 
 tutorial.exe: CMakeFiles/tutorial.dir/main.c.obj
-tutorial.exe: CMakeFiles/tutorial.dir/Operators.c.obj
+tutorial.exe: CMakeFiles/tutorial.dir/mmm.c.obj
+tutorial.exe: CMakeFiles/tutorial.dir/switchcase.c.obj
 tutorial.exe: CMakeFiles/tutorial.dir/build.make
 tutorial.exe: CMakeFiles/tutorial.dir/linklibs.rsp
 tutorial.exe: CMakeFiles/tutorial.dir/objects1.rsp
 tutorial.exe: CMakeFiles/tutorial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Student5\CLionProjects\C_PROGRAMMING\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable tutorial.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Student5\CLionProjects\C_PROGRAMMING\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable tutorial.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\tutorial.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

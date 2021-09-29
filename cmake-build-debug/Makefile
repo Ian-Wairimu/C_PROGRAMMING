@@ -128,30 +128,6 @@ tutorial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/build
 .PHONY : tutorial/fast
 
-Operators.obj: Operators.c.obj
-.PHONY : Operators.obj
-
-# target to build an object file
-Operators.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/Operators.c.obj
-.PHONY : Operators.c.obj
-
-Operators.i: Operators.c.i
-.PHONY : Operators.i
-
-# target to preprocess a source file
-Operators.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/Operators.c.i
-.PHONY : Operators.c.i
-
-Operators.s: Operators.c.s
-.PHONY : Operators.s
-
-# target to generate assembly for a file
-Operators.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/Operators.c.s
-.PHONY : Operators.c.s
-
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -176,6 +152,54 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/main.c.s
 .PHONY : main.c.s
 
+mmm.obj: mmm.c.obj
+.PHONY : mmm.obj
+
+# target to build an object file
+mmm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/mmm.c.obj
+.PHONY : mmm.c.obj
+
+mmm.i: mmm.c.i
+.PHONY : mmm.i
+
+# target to preprocess a source file
+mmm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/mmm.c.i
+.PHONY : mmm.c.i
+
+mmm.s: mmm.c.s
+.PHONY : mmm.s
+
+# target to generate assembly for a file
+mmm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/mmm.c.s
+.PHONY : mmm.c.s
+
+switchcase.obj: switchcase.c.obj
+.PHONY : switchcase.obj
+
+# target to build an object file
+switchcase.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/switchcase.c.obj
+.PHONY : switchcase.c.obj
+
+switchcase.i: switchcase.c.i
+.PHONY : switchcase.i
+
+# target to preprocess a source file
+switchcase.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/switchcase.c.i
+.PHONY : switchcase.c.i
+
+switchcase.s: switchcase.c.s
+.PHONY : switchcase.s
+
+# target to generate assembly for a file
+switchcase.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/switchcase.c.s
+.PHONY : switchcase.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +209,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... tutorial
-	@echo ... Operators.obj
-	@echo ... Operators.i
-	@echo ... Operators.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... mmm.obj
+	@echo ... mmm.i
+	@echo ... mmm.s
+	@echo ... switchcase.obj
+	@echo ... switchcase.i
+	@echo ... switchcase.s
 .PHONY : help
 
 
