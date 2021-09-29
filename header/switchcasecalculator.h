@@ -1,0 +1,8 @@
+//
+// Created by Student5 on 9/29/2021.
+//
+
+#ifndef TUTORIAL_SWITCHCASECALCULATOR_H
+#define TUTORIAL_SWITCHCASECALCULATOR_H
+#include <stdio.h>
+#endif //TUTORIAL_SWITCHCASECALCULATOR_H

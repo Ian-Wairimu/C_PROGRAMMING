@@ -1,4 +1,4 @@
-#include "header/switchcase.h"
+#include "header/switchcasecalculator.h"
 
 int main2(){
     int x, y;
