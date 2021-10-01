@@ -74,6 +74,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/FucntionCalculator.c">
+			<Option target="tutorial"/>
+		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/FunctionC.c">
+			<Option target="tutorial"/>
+		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/header/FucntionCalculator.h">
+			<Option target="tutorial"/>
+		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/header/FunctionC.h">
+			<Option target="tutorial"/>
+		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/header/ifstatementcalculator.h">
 			<Option target="tutorial"/>
 		</Unit>

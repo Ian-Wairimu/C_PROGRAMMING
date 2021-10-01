@@ -4,7 +4,7 @@
 
 #include "header/ifstatementcalculator.h"
 
-int main(){
+int main4(){
     int x;
     int y;
     char z;

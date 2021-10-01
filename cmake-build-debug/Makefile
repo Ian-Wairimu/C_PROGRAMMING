@@ -128,6 +128,54 @@ tutorial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/build
 .PHONY : tutorial/fast
 
+FucntionCalculator.obj: FucntionCalculator.c.obj
+.PHONY : FucntionCalculator.obj
+
+# target to build an object file
+FucntionCalculator.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/FucntionCalculator.c.obj
+.PHONY : FucntionCalculator.c.obj
+
+FucntionCalculator.i: FucntionCalculator.c.i
+.PHONY : FucntionCalculator.i
+
+# target to preprocess a source file
+FucntionCalculator.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/FucntionCalculator.c.i
+.PHONY : FucntionCalculator.c.i
+
+FucntionCalculator.s: FucntionCalculator.c.s
+.PHONY : FucntionCalculator.s
+
+# target to generate assembly for a file
+FucntionCalculator.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/FucntionCalculator.c.s
+.PHONY : FucntionCalculator.c.s
+
+FunctionC.obj: FunctionC.c.obj
+.PHONY : FunctionC.obj
+
+# target to build an object file
+FunctionC.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/FunctionC.c.obj
+.PHONY : FunctionC.c.obj
+
+FunctionC.i: FunctionC.c.i
+.PHONY : FunctionC.i
+
+# target to preprocess a source file
+FunctionC.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/FunctionC.c.i
+.PHONY : FunctionC.c.i
+
+FunctionC.s: FunctionC.c.s
+.PHONY : FunctionC.s
+
+# target to generate assembly for a file
+FunctionC.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/FunctionC.c.s
+.PHONY : FunctionC.c.s
+
 ifstatement.obj: ifstatement.c.obj
 .PHONY : ifstatement.obj
 
@@ -233,6 +281,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... tutorial
+	@echo ... FucntionCalculator.obj
+	@echo ... FucntionCalculator.i
+	@echo ... FucntionCalculator.s
+	@echo ... FunctionC.obj
+	@echo ... FunctionC.i
+	@echo ... FunctionC.s
 	@echo ... ifstatement.obj
 	@echo ... ifstatement.i
 	@echo ... ifstatement.s
