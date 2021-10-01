@@ -200,53 +200,29 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/main.c.s
 .PHONY : main.c.s
 
-mmm.obj: mmm.c.obj
-.PHONY : mmm.obj
+switchcasecalculator.obj: switchcasecalculator.c.obj
+.PHONY : switchcasecalculator.obj
 
 # target to build an object file
-mmm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/mmm.c.obj
-.PHONY : mmm.c.obj
+switchcasecalculator.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/switchcasecalculator.c.obj
+.PHONY : switchcasecalculator.c.obj
 
-mmm.i: mmm.c.i
-.PHONY : mmm.i
-
-# target to preprocess a source file
-mmm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/mmm.c.i
-.PHONY : mmm.c.i
-
-mmm.s: mmm.c.s
-.PHONY : mmm.s
-
-# target to generate assembly for a file
-mmm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/mmm.c.s
-.PHONY : mmm.c.s
-
-switchcase.obj: switchcase.c.obj
-.PHONY : switchcase.obj
-
-# target to build an object file
-switchcase.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/switchcase.c.obj
-.PHONY : switchcase.c.obj
-
-switchcase.i: switchcase.c.i
-.PHONY : switchcase.i
+switchcasecalculator.i: switchcasecalculator.c.i
+.PHONY : switchcasecalculator.i
 
 # target to preprocess a source file
-switchcase.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/switchcase.c.i
-.PHONY : switchcase.c.i
+switchcasecalculator.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/switchcasecalculator.c.i
+.PHONY : switchcasecalculator.c.i
 
-switchcase.s: switchcase.c.s
-.PHONY : switchcase.s
+switchcasecalculator.s: switchcasecalculator.c.s
+.PHONY : switchcasecalculator.s
 
 # target to generate assembly for a file
-switchcase.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/switchcase.c.s
-.PHONY : switchcase.c.s
+switchcasecalculator.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/switchcasecalculator.c.s
+.PHONY : switchcasecalculator.c.s
 
 # Help Target
 help:
@@ -266,12 +242,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... mmm.obj
-	@echo ... mmm.i
-	@echo ... mmm.s
-	@echo ... switchcase.obj
-	@echo ... switchcase.i
-	@echo ... switchcase.s
+	@echo ... switchcasecalculator.obj
+	@echo ... switchcasecalculator.i
+	@echo ... switchcasecalculator.s
 .PHONY : help
 
 

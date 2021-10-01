@@ -11,8 +11,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/ifstatement.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/ifstatement.c.obj"
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/ifstatementcalculator.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/ifstatementcalculator.c.obj"
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/main.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/main.c.obj"
-  "C:/Users/Student5/CLionProjects/C_PROGRAMMING/mmm.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/mmm.c.obj"
-  "C:/Users/Student5/CLionProjects/C_PROGRAMMING/switchcase.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/switchcase.c.obj"
+  "C:/Users/Student5/CLionProjects/C_PROGRAMMING/switchcasecalculator.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/switchcasecalculator.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

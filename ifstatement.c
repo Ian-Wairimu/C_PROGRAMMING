@@ -4,12 +4,13 @@
 //this is a simple if statement in c
 #include <stdio.h>
 
-int main(){
+int main3() {
     //declare integer
     int x = 0;
 
-    if(x <= 10){
+    if (x <= 10) {
         printf("X is Less than 10: %d", x);
         return 0;
+    }
 }
 

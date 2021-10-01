@@ -74,7 +74,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/header/switchcase.h">
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/header/ifstatementcalculator.h">
+			<Option target="tutorial"/>
+		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/header/switchcasecalculator.h">
 			<Option target="tutorial"/>
 		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/ifstatement.c">
@@ -83,16 +86,10 @@
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/ifstatementcalculator.c">
 			<Option target="tutorial"/>
 		</Unit>
-		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/ifstatementcalculator.h">
-			<Option target="tutorial"/>
-		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/main.c">
 			<Option target="tutorial"/>
 		</Unit>
-		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/mmm.c">
-			<Option target="tutorial"/>
-		</Unit>
-		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/switchcase.c">
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/switchcasecalculator.c">
 			<Option target="tutorial"/>
 		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/CMakeLists.txt">
