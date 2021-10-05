@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/tutorial.dir/ifstatement.c.obj"
   "CMakeFiles/tutorial.dir/ifstatementcalculator.c.obj"
   "CMakeFiles/tutorial.dir/main.c.obj"
+  "CMakeFiles/tutorial.dir/oneDimension.c.obj"
   "CMakeFiles/tutorial.dir/switchcasecalculator.c.obj"
   "libtutorial.dll.a"
   "tutorial.exe"

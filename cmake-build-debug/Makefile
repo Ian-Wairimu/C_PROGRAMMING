@@ -248,6 +248,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/main.c.s
 .PHONY : main.c.s
 
+oneDimension.obj: oneDimension.c.obj
+.PHONY : oneDimension.obj
+
+# target to build an object file
+oneDimension.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/oneDimension.c.obj
+.PHONY : oneDimension.c.obj
+
+oneDimension.i: oneDimension.c.i
+.PHONY : oneDimension.i
+
+# target to preprocess a source file
+oneDimension.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/oneDimension.c.i
+.PHONY : oneDimension.c.i
+
+oneDimension.s: oneDimension.c.s
+.PHONY : oneDimension.s
+
+# target to generate assembly for a file
+oneDimension.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/oneDimension.c.s
+.PHONY : oneDimension.c.s
+
 switchcasecalculator.obj: switchcasecalculator.c.obj
 .PHONY : switchcasecalculator.obj
 
@@ -296,6 +320,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... oneDimension.obj
+	@echo ... oneDimension.i
+	@echo ... oneDimension.s
 	@echo ... switchcasecalculator.obj
 	@echo ... switchcasecalculator.i
 	@echo ... switchcasecalculator.s

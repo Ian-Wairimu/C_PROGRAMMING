@@ -14,6 +14,9 @@ CMakeFiles/tutorial.dir/ifstatementcalculator.c.obj: \
  ../ifstatementcalculator.c
 CMakeFiles/tutorial.dir/main.c.obj: \
  ../main.c
+CMakeFiles/tutorial.dir/oneDimension.c.obj: \
+ ../header/oneDimension.h \
+ ../oneDimension.c
 CMakeFiles/tutorial.dir/switchcasecalculator.c.obj: \
  ../header/switchcasecalculator.h \
  ../switchcasecalculator.c

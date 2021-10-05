@@ -4,7 +4,7 @@
 
 #include "header/FucntionCalculator.h"
 
-int main() {
+int main6() {
     printf("input a character:\n");
     scanf("%c", logic('+'));
 

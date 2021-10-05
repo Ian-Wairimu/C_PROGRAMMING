@@ -89,6 +89,9 @@
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/header/ifstatementcalculator.h">
 			<Option target="tutorial"/>
 		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/header/oneDimension.h">
+			<Option target="tutorial"/>
+		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/header/switchcasecalculator.h">
 			<Option target="tutorial"/>
 		</Unit>
@@ -99,6 +102,9 @@
 			<Option target="tutorial"/>
 		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/main.c">
+			<Option target="tutorial"/>
+		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/oneDimension.c">
 			<Option target="tutorial"/>
 		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/switchcasecalculator.c">
