@@ -200,6 +200,30 @@ InputArray.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/InputArray.c.s
 .PHONY : InputArray.c.s
 
+arrayArgs.obj: arrayArgs.c.obj
+.PHONY : arrayArgs.obj
+
+# target to build an object file
+arrayArgs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/arrayArgs.c.obj
+.PHONY : arrayArgs.c.obj
+
+arrayArgs.i: arrayArgs.c.i
+.PHONY : arrayArgs.i
+
+# target to preprocess a source file
+arrayArgs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/arrayArgs.c.i
+.PHONY : arrayArgs.c.i
+
+arrayArgs.s: arrayArgs.c.s
+.PHONY : arrayArgs.s
+
+# target to generate assembly for a file
+arrayArgs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/arrayArgs.c.s
+.PHONY : arrayArgs.c.s
+
 ifstatement.obj: ifstatement.c.obj
 .PHONY : ifstatement.obj
 
@@ -362,6 +386,9 @@ help:
 	@echo ... InputArray.obj
 	@echo ... InputArray.i
 	@echo ... InputArray.s
+	@echo ... arrayArgs.obj
+	@echo ... arrayArgs.i
+	@echo ... arrayArgs.s
 	@echo ... ifstatement.obj
 	@echo ... ifstatement.i
 	@echo ... ifstatement.s

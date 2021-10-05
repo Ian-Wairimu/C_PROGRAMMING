@@ -83,6 +83,9 @@
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/InputArray.c">
 			<Option target="tutorial"/>
 		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/arrayArgs.c">
+			<Option target="tutorial"/>
+		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/header/FucntionCalculator.h">
 			<Option target="tutorial"/>
 		</Unit>

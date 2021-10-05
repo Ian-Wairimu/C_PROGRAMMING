@@ -9,6 +9,8 @@ CMakeFiles/tutorial.dir/FunctionC.c.obj: \
  ../header/FunctionC.h
 CMakeFiles/tutorial.dir/InputArray.c.obj: \
  ../InputArray.c
+CMakeFiles/tutorial.dir/arrayArgs.c.obj: \
+ ../arrayArgs.c
 CMakeFiles/tutorial.dir/ifstatement.c.obj: \
  ../ifstatement.c
 CMakeFiles/tutorial.dir/ifstatementcalculator.c.obj: \

@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/tutorial.dir/FucntionCalculator.c.obj"
   "CMakeFiles/tutorial.dir/FunctionC.c.obj"
   "CMakeFiles/tutorial.dir/InputArray.c.obj"
+  "CMakeFiles/tutorial.dir/arrayArgs.c.obj"
   "CMakeFiles/tutorial.dir/ifstatement.c.obj"
   "CMakeFiles/tutorial.dir/ifstatementcalculator.c.obj"
   "CMakeFiles/tutorial.dir/main.c.obj"
