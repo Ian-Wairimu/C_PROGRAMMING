@@ -20,3 +20,6 @@ CMakeFiles/tutorial.dir/oneDimension.c.obj: \
 CMakeFiles/tutorial.dir/switchcasecalculator.c.obj: \
  ../header/switchcasecalculator.h \
  ../switchcasecalculator.c
+CMakeFiles/tutorial.dir/twoDimensional.c.obj: \
+ ../header/twoDimensional.h \
+ ../twoDimensional.c

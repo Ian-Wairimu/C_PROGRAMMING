@@ -176,6 +176,30 @@ FunctionC.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/FunctionC.c.s
 .PHONY : FunctionC.c.s
 
+InputArray.obj: InputArray.c.obj
+.PHONY : InputArray.obj
+
+# target to build an object file
+InputArray.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/InputArray.c.obj
+.PHONY : InputArray.c.obj
+
+InputArray.i: InputArray.c.i
+.PHONY : InputArray.i
+
+# target to preprocess a source file
+InputArray.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/InputArray.c.i
+.PHONY : InputArray.c.i
+
+InputArray.s: InputArray.c.s
+.PHONY : InputArray.s
+
+# target to generate assembly for a file
+InputArray.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/InputArray.c.s
+.PHONY : InputArray.c.s
+
 ifstatement.obj: ifstatement.c.obj
 .PHONY : ifstatement.obj
 
@@ -296,6 +320,30 @@ switchcasecalculator.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/switchcasecalculator.c.s
 .PHONY : switchcasecalculator.c.s
 
+twoDimensional.obj: twoDimensional.c.obj
+.PHONY : twoDimensional.obj
+
+# target to build an object file
+twoDimensional.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/twoDimensional.c.obj
+.PHONY : twoDimensional.c.obj
+
+twoDimensional.i: twoDimensional.c.i
+.PHONY : twoDimensional.i
+
+# target to preprocess a source file
+twoDimensional.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/twoDimensional.c.i
+.PHONY : twoDimensional.c.i
+
+twoDimensional.s: twoDimensional.c.s
+.PHONY : twoDimensional.s
+
+# target to generate assembly for a file
+twoDimensional.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/twoDimensional.c.s
+.PHONY : twoDimensional.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -311,6 +359,9 @@ help:
 	@echo ... FunctionC.obj
 	@echo ... FunctionC.i
 	@echo ... FunctionC.s
+	@echo ... InputArray.obj
+	@echo ... InputArray.i
+	@echo ... InputArray.s
 	@echo ... ifstatement.obj
 	@echo ... ifstatement.i
 	@echo ... ifstatement.s
@@ -326,6 +377,9 @@ help:
 	@echo ... switchcasecalculator.obj
 	@echo ... switchcasecalculator.i
 	@echo ... switchcasecalculator.s
+	@echo ... twoDimensional.obj
+	@echo ... twoDimensional.i
+	@echo ... twoDimensional.s
 .PHONY : help
 
 

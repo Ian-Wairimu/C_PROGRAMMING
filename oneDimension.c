@@ -4,7 +4,8 @@
 
 #include "header/oneDimension.h"
 
-int main(){
+int main7(){
+
     charIteration();
     intIteration();
     doubleIteration();

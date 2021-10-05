@@ -80,6 +80,9 @@
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/FunctionC.c">
 			<Option target="tutorial"/>
 		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/InputArray.c">
+			<Option target="tutorial"/>
+		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/header/FucntionCalculator.h">
 			<Option target="tutorial"/>
 		</Unit>
@@ -95,6 +98,9 @@
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/header/switchcasecalculator.h">
 			<Option target="tutorial"/>
 		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/header/twoDimensional.h">
+			<Option target="tutorial"/>
+		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/ifstatement.c">
 			<Option target="tutorial"/>
 		</Unit>
@@ -108,6 +114,9 @@
 			<Option target="tutorial"/>
 		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/switchcasecalculator.c">
+			<Option target="tutorial"/>
+		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/twoDimensional.c">
 			<Option target="tutorial"/>
 		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/CMakeLists.txt">
