@@ -18,7 +18,7 @@ void intIteration(){
     int number[7] = {4, 2, 10, 24, 13, 50, 100};
     for (int i = 0; i < 7; ++i) {
         while(i == 7)break;
-        printf("\n%d\n", number[i]);
+        printf("\noutput i-d array: %d\n", number[i]);
     }
 }
 
@@ -26,7 +26,7 @@ void doubleIteration(){
     double dobNumber[6] = {5.0, 4.5, 4.0, 3.5, 3.0, 2.5};
     for (int i = 0; i < 6; ++i) {
         if (i == 6)break;
-        printf("%f \n", dobNumber[i]);
+        printf("output i-d array: %f \n", dobNumber[i]);
     }
 }
 #endif //TUTORIAL_ONEDIMENSION_H

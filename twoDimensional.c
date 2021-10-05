@@ -6,4 +6,9 @@
 
 int main(){
 
+twoDimensional();
+twoDimensional1();
+
+    return 0;
+
 }
