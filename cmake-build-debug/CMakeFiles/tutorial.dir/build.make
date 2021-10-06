@@ -208,6 +208,45 @@ CMakeFiles/tutorial.dir/HelloWorld.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tutorial.dir/HelloWorld.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Student5\CLionProjects\C_PROGRAMMING\HelloWorld.c -o CMakeFiles\tutorial.dir\HelloWorld.c.s
 
+CMakeFiles/tutorial.dir/variables.c.obj: CMakeFiles/tutorial.dir/flags.make
+CMakeFiles/tutorial.dir/variables.c.obj: ../variables.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Student5\CLionProjects\C_PROGRAMMING\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/tutorial.dir/variables.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\tutorial.dir\variables.c.obj -c C:\Users\Student5\CLionProjects\C_PROGRAMMING\variables.c
+
+CMakeFiles/tutorial.dir/variables.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tutorial.dir/variables.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Student5\CLionProjects\C_PROGRAMMING\variables.c > CMakeFiles\tutorial.dir\variables.c.i
+
+CMakeFiles/tutorial.dir/variables.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tutorial.dir/variables.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Student5\CLionProjects\C_PROGRAMMING\variables.c -o CMakeFiles\tutorial.dir\variables.c.s
+
+CMakeFiles/tutorial.dir/pointers.c.obj: CMakeFiles/tutorial.dir/flags.make
+CMakeFiles/tutorial.dir/pointers.c.obj: ../pointers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Student5\CLionProjects\C_PROGRAMMING\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/tutorial.dir/pointers.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\tutorial.dir\pointers.c.obj -c C:\Users\Student5\CLionProjects\C_PROGRAMMING\pointers.c
+
+CMakeFiles/tutorial.dir/pointers.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tutorial.dir/pointers.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Student5\CLionProjects\C_PROGRAMMING\pointers.c > CMakeFiles\tutorial.dir\pointers.c.i
+
+CMakeFiles/tutorial.dir/pointers.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tutorial.dir/pointers.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Student5\CLionProjects\C_PROGRAMMING\pointers.c -o CMakeFiles\tutorial.dir\pointers.c.s
+
+CMakeFiles/tutorial.dir/FunctionPasByValue.c.obj: CMakeFiles/tutorial.dir/flags.make
+CMakeFiles/tutorial.dir/FunctionPasByValue.c.obj: ../FunctionPasByValue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Student5\CLionProjects\C_PROGRAMMING\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/tutorial.dir/FunctionPasByValue.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\tutorial.dir\FunctionPasByValue.c.obj -c C:\Users\Student5\CLionProjects\C_PROGRAMMING\FunctionPasByValue.c
+
+CMakeFiles/tutorial.dir/FunctionPasByValue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tutorial.dir/FunctionPasByValue.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Student5\CLionProjects\C_PROGRAMMING\FunctionPasByValue.c > CMakeFiles\tutorial.dir\FunctionPasByValue.c.i
+
+CMakeFiles/tutorial.dir/FunctionPasByValue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tutorial.dir/FunctionPasByValue.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Student5\CLionProjects\C_PROGRAMMING\FunctionPasByValue.c -o CMakeFiles\tutorial.dir\FunctionPasByValue.c.s
+
 # Object files for target tutorial
 tutorial_OBJECTS = \
 "CMakeFiles/tutorial.dir/main.c.obj" \
@@ -220,7 +259,10 @@ tutorial_OBJECTS = \
 "CMakeFiles/tutorial.dir/twoDimensional.c.obj" \
 "CMakeFiles/tutorial.dir/InputArray.c.obj" \
 "CMakeFiles/tutorial.dir/arrayArgs.c.obj" \
-"CMakeFiles/tutorial.dir/HelloWorld.c.obj"
+"CMakeFiles/tutorial.dir/HelloWorld.c.obj" \
+"CMakeFiles/tutorial.dir/variables.c.obj" \
+"CMakeFiles/tutorial.dir/pointers.c.obj" \
+"CMakeFiles/tutorial.dir/FunctionPasByValue.c.obj"
 
 # External object files for target tutorial
 tutorial_EXTERNAL_OBJECTS =
@@ -236,11 +278,14 @@ tutorial.exe: CMakeFiles/tutorial.dir/twoDimensional.c.obj
 tutorial.exe: CMakeFiles/tutorial.dir/InputArray.c.obj
 tutorial.exe: CMakeFiles/tutorial.dir/arrayArgs.c.obj
 tutorial.exe: CMakeFiles/tutorial.dir/HelloWorld.c.obj
+tutorial.exe: CMakeFiles/tutorial.dir/variables.c.obj
+tutorial.exe: CMakeFiles/tutorial.dir/pointers.c.obj
+tutorial.exe: CMakeFiles/tutorial.dir/FunctionPasByValue.c.obj
 tutorial.exe: CMakeFiles/tutorial.dir/build.make
 tutorial.exe: CMakeFiles/tutorial.dir/linklibs.rsp
 tutorial.exe: CMakeFiles/tutorial.dir/objects1.rsp
 tutorial.exe: CMakeFiles/tutorial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Student5\CLionProjects\C_PROGRAMMING\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable tutorial.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Student5\CLionProjects\C_PROGRAMMING\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C executable tutorial.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\tutorial.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

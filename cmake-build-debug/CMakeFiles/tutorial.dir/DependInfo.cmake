@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/FucntionCalculator.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/FucntionCalculator.c.obj"
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/FunctionC.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/FunctionC.c.obj"
+  "C:/Users/Student5/CLionProjects/C_PROGRAMMING/FunctionPasByValue.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/FunctionPasByValue.c.obj"
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/HelloWorld.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/HelloWorld.c.obj"
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/InputArray.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/InputArray.c.obj"
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/arrayArgs.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/arrayArgs.c.obj"
@@ -17,8 +18,10 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/ifstatementcalculator.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/ifstatementcalculator.c.obj"
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/main.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/main.c.obj"
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/oneDimension.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/oneDimension.c.obj"
+  "C:/Users/Student5/CLionProjects/C_PROGRAMMING/pointers.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/pointers.c.obj"
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/switchcasecalculator.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/switchcasecalculator.c.obj"
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/twoDimensional.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/twoDimensional.c.obj"
+  "C:/Users/Student5/CLionProjects/C_PROGRAMMING/variables.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/variables.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

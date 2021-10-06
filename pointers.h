@@ -4,5 +4,5 @@
 
 #ifndef TUTORIAL_POINTERS_H
 #define TUTORIAL_POINTERS_H
-
+#include <stdio.h>
 #endif //TUTORIAL_POINTERS_H

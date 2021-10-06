@@ -80,6 +80,9 @@
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/FunctionC.c">
 			<Option target="tutorial"/>
 		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/FunctionPasByValue.c">
+			<Option target="tutorial"/>
+		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/HelloWorld.c">
 			<Option target="tutorial"/>
 		</Unit>
@@ -119,10 +122,19 @@
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/oneDimension.c">
 			<Option target="tutorial"/>
 		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/pointers.c">
+			<Option target="tutorial"/>
+		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/pointers.h">
+			<Option target="tutorial"/>
+		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/switchcasecalculator.c">
 			<Option target="tutorial"/>
 		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/twoDimensional.c">
+			<Option target="tutorial"/>
+		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/variables.c">
 			<Option target="tutorial"/>
 		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/CMakeLists.txt">

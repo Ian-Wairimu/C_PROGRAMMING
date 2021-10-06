@@ -176,6 +176,30 @@ FunctionC.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/FunctionC.c.s
 .PHONY : FunctionC.c.s
 
+FunctionPasByValue.obj: FunctionPasByValue.c.obj
+.PHONY : FunctionPasByValue.obj
+
+# target to build an object file
+FunctionPasByValue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/FunctionPasByValue.c.obj
+.PHONY : FunctionPasByValue.c.obj
+
+FunctionPasByValue.i: FunctionPasByValue.c.i
+.PHONY : FunctionPasByValue.i
+
+# target to preprocess a source file
+FunctionPasByValue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/FunctionPasByValue.c.i
+.PHONY : FunctionPasByValue.c.i
+
+FunctionPasByValue.s: FunctionPasByValue.c.s
+.PHONY : FunctionPasByValue.s
+
+# target to generate assembly for a file
+FunctionPasByValue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/FunctionPasByValue.c.s
+.PHONY : FunctionPasByValue.c.s
+
 HelloWorld.obj: HelloWorld.c.obj
 .PHONY : HelloWorld.obj
 
@@ -344,6 +368,30 @@ oneDimension.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/oneDimension.c.s
 .PHONY : oneDimension.c.s
 
+pointers.obj: pointers.c.obj
+.PHONY : pointers.obj
+
+# target to build an object file
+pointers.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/pointers.c.obj
+.PHONY : pointers.c.obj
+
+pointers.i: pointers.c.i
+.PHONY : pointers.i
+
+# target to preprocess a source file
+pointers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/pointers.c.i
+.PHONY : pointers.c.i
+
+pointers.s: pointers.c.s
+.PHONY : pointers.s
+
+# target to generate assembly for a file
+pointers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/pointers.c.s
+.PHONY : pointers.c.s
+
 switchcasecalculator.obj: switchcasecalculator.c.obj
 .PHONY : switchcasecalculator.obj
 
@@ -392,6 +440,30 @@ twoDimensional.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/twoDimensional.c.s
 .PHONY : twoDimensional.c.s
 
+variables.obj: variables.c.obj
+.PHONY : variables.obj
+
+# target to build an object file
+variables.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/variables.c.obj
+.PHONY : variables.c.obj
+
+variables.i: variables.c.i
+.PHONY : variables.i
+
+# target to preprocess a source file
+variables.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/variables.c.i
+.PHONY : variables.c.i
+
+variables.s: variables.c.s
+.PHONY : variables.s
+
+# target to generate assembly for a file
+variables.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/variables.c.s
+.PHONY : variables.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -407,6 +479,9 @@ help:
 	@echo ... FunctionC.obj
 	@echo ... FunctionC.i
 	@echo ... FunctionC.s
+	@echo ... FunctionPasByValue.obj
+	@echo ... FunctionPasByValue.i
+	@echo ... FunctionPasByValue.s
 	@echo ... HelloWorld.obj
 	@echo ... HelloWorld.i
 	@echo ... HelloWorld.s
@@ -428,12 +503,18 @@ help:
 	@echo ... oneDimension.obj
 	@echo ... oneDimension.i
 	@echo ... oneDimension.s
+	@echo ... pointers.obj
+	@echo ... pointers.i
+	@echo ... pointers.s
 	@echo ... switchcasecalculator.obj
 	@echo ... switchcasecalculator.i
 	@echo ... switchcasecalculator.s
 	@echo ... twoDimensional.obj
 	@echo ... twoDimensional.i
 	@echo ... twoDimensional.s
+	@echo ... variables.obj
+	@echo ... variables.i
+	@echo ... variables.s
 .PHONY : help
 
 

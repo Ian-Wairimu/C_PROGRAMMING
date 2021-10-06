@@ -3,4 +3,4 @@ project(tutorial C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(tutorial main.c switchcasecalculator.c header/switchcasecalculator.h ifstatement.c ifstatement.c ifstatementcalculator.c header/ifstatementcalculator.h FunctionC.c header/FunctionC.h FucntionCalculator.c header/FucntionCalculator.h oneDimension.c header/oneDimension.h twoDimensional.c header/twoDimensional.h InputArray.c arrayArgs.c HelloWorld.c)
+add_executable(tutorial main.c switchcasecalculator.c header/switchcasecalculator.h ifstatement.c ifstatement.c ifstatementcalculator.c header/ifstatementcalculator.h FunctionC.c header/FunctionC.h FucntionCalculator.c header/FucntionCalculator.h oneDimension.c header/oneDimension.h twoDimensional.c header/twoDimensional.h InputArray.c arrayArgs.c HelloWorld.c variables.c pointers.c pointers.h FunctionPasByValue.c)

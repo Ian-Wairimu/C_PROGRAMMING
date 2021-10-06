@@ -7,6 +7,8 @@ CMakeFiles/tutorial.dir/FucntionCalculator.c.obj: \
 CMakeFiles/tutorial.dir/FunctionC.c.obj: \
  ../FunctionC.c \
  ../header/FunctionC.h
+CMakeFiles/tutorial.dir/FunctionPasByValue.c.obj: \
+ ../FunctionPasByValue.c
 CMakeFiles/tutorial.dir/HelloWorld.c.obj: \
  ../HelloWorld.c
 CMakeFiles/tutorial.dir/InputArray.c.obj: \
@@ -23,9 +25,14 @@ CMakeFiles/tutorial.dir/main.c.obj: \
 CMakeFiles/tutorial.dir/oneDimension.c.obj: \
  ../header/oneDimension.h \
  ../oneDimension.c
+CMakeFiles/tutorial.dir/pointers.c.obj: \
+ ../pointers.c \
+ ../pointers.h
 CMakeFiles/tutorial.dir/switchcasecalculator.c.obj: \
  ../header/switchcasecalculator.h \
  ../switchcasecalculator.c
 CMakeFiles/tutorial.dir/twoDimensional.c.obj: \
  ../header/twoDimensional.h \
  ../twoDimensional.c
+CMakeFiles/tutorial.dir/variables.c.obj: \
+ ../variables.c
