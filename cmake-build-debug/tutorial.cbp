@@ -74,6 +74,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/ForLoop.c">
+			<Option target="tutorial"/>
+		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/FucntionCalculator.c">
 			<Option target="tutorial"/>
 		</Unit>
@@ -83,10 +86,16 @@
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/FunctionPasByValue.c">
 			<Option target="tutorial"/>
 		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/FunctionPointerReference.c">
+			<Option target="tutorial"/>
+		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/HelloWorld.c">
 			<Option target="tutorial"/>
 		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/InputArray.c">
+			<Option target="tutorial"/>
+		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/PointerOneDArray.c">
 			<Option target="tutorial"/>
 		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/arrayArgs.c">
@@ -102,6 +111,9 @@
 			<Option target="tutorial"/>
 		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/header/oneDimension.h">
+			<Option target="tutorial"/>
+		</Unit>
+		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/header/pointers.h">
 			<Option target="tutorial"/>
 		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/header/switchcasecalculator.h">
@@ -123,9 +135,6 @@
 			<Option target="tutorial"/>
 		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/pointers.c">
-			<Option target="tutorial"/>
-		</Unit>
-		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/pointers.h">
 			<Option target="tutorial"/>
 		</Unit>
 		<Unit filename="C:/Users/Student5/CLionProjects/C_PROGRAMMING/switchcasecalculator.c">

@@ -2,13 +2,23 @@
 // Created by Student5 on 10/6/2021.
 //
 
-#include "pointers.h"
+#include "header/pointers.h"
 
-int mainA(void){
-    int y = 10;
-    int *yPtr = &y;
+int pointerFunc(int *input);
 
-    printf("%p", *yPtr);
+int main(void){
+    int number = 0;
+    printf("Enter a number: \n");
+
+    scanf("%d", &number);
+
+    pointerFunc(&number);
+    printf("Output: %d", number);
 
     return 0;
+}
+
+int pointerFunc(int *input){
+    *input = *input * *input;
+    return *input;
 }

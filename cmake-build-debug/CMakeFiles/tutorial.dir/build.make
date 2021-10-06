@@ -247,6 +247,45 @@ CMakeFiles/tutorial.dir/FunctionPasByValue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tutorial.dir/FunctionPasByValue.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Student5\CLionProjects\C_PROGRAMMING\FunctionPasByValue.c -o CMakeFiles\tutorial.dir\FunctionPasByValue.c.s
 
+CMakeFiles/tutorial.dir/FunctionPointerReference.c.obj: CMakeFiles/tutorial.dir/flags.make
+CMakeFiles/tutorial.dir/FunctionPointerReference.c.obj: ../FunctionPointerReference.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Student5\CLionProjects\C_PROGRAMMING\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/tutorial.dir/FunctionPointerReference.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\tutorial.dir\FunctionPointerReference.c.obj -c C:\Users\Student5\CLionProjects\C_PROGRAMMING\FunctionPointerReference.c
+
+CMakeFiles/tutorial.dir/FunctionPointerReference.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tutorial.dir/FunctionPointerReference.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Student5\CLionProjects\C_PROGRAMMING\FunctionPointerReference.c > CMakeFiles\tutorial.dir\FunctionPointerReference.c.i
+
+CMakeFiles/tutorial.dir/FunctionPointerReference.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tutorial.dir/FunctionPointerReference.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Student5\CLionProjects\C_PROGRAMMING\FunctionPointerReference.c -o CMakeFiles\tutorial.dir\FunctionPointerReference.c.s
+
+CMakeFiles/tutorial.dir/PointerOneDArray.c.obj: CMakeFiles/tutorial.dir/flags.make
+CMakeFiles/tutorial.dir/PointerOneDArray.c.obj: ../PointerOneDArray.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Student5\CLionProjects\C_PROGRAMMING\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/tutorial.dir/PointerOneDArray.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\tutorial.dir\PointerOneDArray.c.obj -c C:\Users\Student5\CLionProjects\C_PROGRAMMING\PointerOneDArray.c
+
+CMakeFiles/tutorial.dir/PointerOneDArray.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tutorial.dir/PointerOneDArray.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Student5\CLionProjects\C_PROGRAMMING\PointerOneDArray.c > CMakeFiles\tutorial.dir\PointerOneDArray.c.i
+
+CMakeFiles/tutorial.dir/PointerOneDArray.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tutorial.dir/PointerOneDArray.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Student5\CLionProjects\C_PROGRAMMING\PointerOneDArray.c -o CMakeFiles\tutorial.dir\PointerOneDArray.c.s
+
+CMakeFiles/tutorial.dir/ForLoop.c.obj: CMakeFiles/tutorial.dir/flags.make
+CMakeFiles/tutorial.dir/ForLoop.c.obj: ../ForLoop.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Student5\CLionProjects\C_PROGRAMMING\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/tutorial.dir/ForLoop.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\tutorial.dir\ForLoop.c.obj -c C:\Users\Student5\CLionProjects\C_PROGRAMMING\ForLoop.c
+
+CMakeFiles/tutorial.dir/ForLoop.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tutorial.dir/ForLoop.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Student5\CLionProjects\C_PROGRAMMING\ForLoop.c > CMakeFiles\tutorial.dir\ForLoop.c.i
+
+CMakeFiles/tutorial.dir/ForLoop.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tutorial.dir/ForLoop.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Student5\CLionProjects\C_PROGRAMMING\ForLoop.c -o CMakeFiles\tutorial.dir\ForLoop.c.s
+
 # Object files for target tutorial
 tutorial_OBJECTS = \
 "CMakeFiles/tutorial.dir/main.c.obj" \
@@ -262,7 +301,10 @@ tutorial_OBJECTS = \
 "CMakeFiles/tutorial.dir/HelloWorld.c.obj" \
 "CMakeFiles/tutorial.dir/variables.c.obj" \
 "CMakeFiles/tutorial.dir/pointers.c.obj" \
-"CMakeFiles/tutorial.dir/FunctionPasByValue.c.obj"
+"CMakeFiles/tutorial.dir/FunctionPasByValue.c.obj" \
+"CMakeFiles/tutorial.dir/FunctionPointerReference.c.obj" \
+"CMakeFiles/tutorial.dir/PointerOneDArray.c.obj" \
+"CMakeFiles/tutorial.dir/ForLoop.c.obj"
 
 # External object files for target tutorial
 tutorial_EXTERNAL_OBJECTS =
@@ -281,11 +323,14 @@ tutorial.exe: CMakeFiles/tutorial.dir/HelloWorld.c.obj
 tutorial.exe: CMakeFiles/tutorial.dir/variables.c.obj
 tutorial.exe: CMakeFiles/tutorial.dir/pointers.c.obj
 tutorial.exe: CMakeFiles/tutorial.dir/FunctionPasByValue.c.obj
+tutorial.exe: CMakeFiles/tutorial.dir/FunctionPointerReference.c.obj
+tutorial.exe: CMakeFiles/tutorial.dir/PointerOneDArray.c.obj
+tutorial.exe: CMakeFiles/tutorial.dir/ForLoop.c.obj
 tutorial.exe: CMakeFiles/tutorial.dir/build.make
 tutorial.exe: CMakeFiles/tutorial.dir/linklibs.rsp
 tutorial.exe: CMakeFiles/tutorial.dir/objects1.rsp
 tutorial.exe: CMakeFiles/tutorial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Student5\CLionProjects\C_PROGRAMMING\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C executable tutorial.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Student5\CLionProjects\C_PROGRAMMING\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking C executable tutorial.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\tutorial.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

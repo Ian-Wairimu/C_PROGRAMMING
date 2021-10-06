@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Student5/CLionProjects/C_PROGRAMMING/FunctionPasByValue.c
+C:/Users/Student5/CLionProjects/C_PROGRAMMING/ForLoop.c
 stdio.h
 -
+conio.h
+-
+
+C:/Users/Student5/CLionProjects/C_PROGRAMMING/header/pointers.h
+stdio.h
+-
+
+C:/Users/Student5/CLionProjects/C_PROGRAMMING/pointers.c
+header/pointers.h
+C:/Users/Student5/CLionProjects/C_PROGRAMMING/header/pointers.h
 

@@ -128,6 +128,30 @@ tutorial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/build
 .PHONY : tutorial/fast
 
+ForLoop.obj: ForLoop.c.obj
+.PHONY : ForLoop.obj
+
+# target to build an object file
+ForLoop.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/ForLoop.c.obj
+.PHONY : ForLoop.c.obj
+
+ForLoop.i: ForLoop.c.i
+.PHONY : ForLoop.i
+
+# target to preprocess a source file
+ForLoop.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/ForLoop.c.i
+.PHONY : ForLoop.c.i
+
+ForLoop.s: ForLoop.c.s
+.PHONY : ForLoop.s
+
+# target to generate assembly for a file
+ForLoop.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/ForLoop.c.s
+.PHONY : ForLoop.c.s
+
 FucntionCalculator.obj: FucntionCalculator.c.obj
 .PHONY : FucntionCalculator.obj
 
@@ -200,6 +224,30 @@ FunctionPasByValue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/FunctionPasByValue.c.s
 .PHONY : FunctionPasByValue.c.s
 
+FunctionPointerReference.obj: FunctionPointerReference.c.obj
+.PHONY : FunctionPointerReference.obj
+
+# target to build an object file
+FunctionPointerReference.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/FunctionPointerReference.c.obj
+.PHONY : FunctionPointerReference.c.obj
+
+FunctionPointerReference.i: FunctionPointerReference.c.i
+.PHONY : FunctionPointerReference.i
+
+# target to preprocess a source file
+FunctionPointerReference.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/FunctionPointerReference.c.i
+.PHONY : FunctionPointerReference.c.i
+
+FunctionPointerReference.s: FunctionPointerReference.c.s
+.PHONY : FunctionPointerReference.s
+
+# target to generate assembly for a file
+FunctionPointerReference.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/FunctionPointerReference.c.s
+.PHONY : FunctionPointerReference.c.s
+
 HelloWorld.obj: HelloWorld.c.obj
 .PHONY : HelloWorld.obj
 
@@ -247,6 +295,30 @@ InputArray.s: InputArray.c.s
 InputArray.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/InputArray.c.s
 .PHONY : InputArray.c.s
+
+PointerOneDArray.obj: PointerOneDArray.c.obj
+.PHONY : PointerOneDArray.obj
+
+# target to build an object file
+PointerOneDArray.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/PointerOneDArray.c.obj
+.PHONY : PointerOneDArray.c.obj
+
+PointerOneDArray.i: PointerOneDArray.c.i
+.PHONY : PointerOneDArray.i
+
+# target to preprocess a source file
+PointerOneDArray.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/PointerOneDArray.c.i
+.PHONY : PointerOneDArray.c.i
+
+PointerOneDArray.s: PointerOneDArray.c.s
+.PHONY : PointerOneDArray.s
+
+# target to generate assembly for a file
+PointerOneDArray.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/PointerOneDArray.c.s
+.PHONY : PointerOneDArray.c.s
 
 arrayArgs.obj: arrayArgs.c.obj
 .PHONY : arrayArgs.obj
@@ -473,6 +545,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... tutorial
+	@echo ... ForLoop.obj
+	@echo ... ForLoop.i
+	@echo ... ForLoop.s
 	@echo ... FucntionCalculator.obj
 	@echo ... FucntionCalculator.i
 	@echo ... FucntionCalculator.s
@@ -482,12 +557,18 @@ help:
 	@echo ... FunctionPasByValue.obj
 	@echo ... FunctionPasByValue.i
 	@echo ... FunctionPasByValue.s
+	@echo ... FunctionPointerReference.obj
+	@echo ... FunctionPointerReference.i
+	@echo ... FunctionPointerReference.s
 	@echo ... HelloWorld.obj
 	@echo ... HelloWorld.i
 	@echo ... HelloWorld.s
 	@echo ... InputArray.obj
 	@echo ... InputArray.i
 	@echo ... InputArray.s
+	@echo ... PointerOneDArray.obj
+	@echo ... PointerOneDArray.i
+	@echo ... PointerOneDArray.s
 	@echo ... arrayArgs.obj
 	@echo ... arrayArgs.i
 	@echo ... arrayArgs.s

@@ -8,11 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/Student5/CLionProjects/C_PROGRAMMING/ForLoop.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/ForLoop.c.obj"
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/FucntionCalculator.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/FucntionCalculator.c.obj"
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/FunctionC.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/FunctionC.c.obj"
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/FunctionPasByValue.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/FunctionPasByValue.c.obj"
+  "C:/Users/Student5/CLionProjects/C_PROGRAMMING/FunctionPointerReference.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/FunctionPointerReference.c.obj"
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/HelloWorld.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/HelloWorld.c.obj"
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/InputArray.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/InputArray.c.obj"
+  "C:/Users/Student5/CLionProjects/C_PROGRAMMING/PointerOneDArray.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/PointerOneDArray.c.obj"
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/arrayArgs.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/arrayArgs.c.obj"
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/ifstatement.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/ifstatement.c.obj"
   "C:/Users/Student5/CLionProjects/C_PROGRAMMING/ifstatementcalculator.c" "C:/Users/Student5/CLionProjects/C_PROGRAMMING/cmake-build-debug/CMakeFiles/tutorial.dir/ifstatementcalculator.c.obj"

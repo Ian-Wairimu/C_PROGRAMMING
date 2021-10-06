@@ -3,15 +3,15 @@
 //
 #include <stdio.h>
 
-int cubeNumber(int n);
+int cubeNumber1(int n);
 
-int main() {
+int mainT(void) {
     int number = 5;
 
-    printf("%d", cubeNumber(number));
+    printf("%d", cubeNumber1(number));
 
     return 0;
 }
-int cubeNumber(int n){
+int cubeNumber1(int n){
     return n * n * n;
 }

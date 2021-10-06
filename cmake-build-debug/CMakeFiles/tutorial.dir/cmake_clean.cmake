@@ -1,9 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/tutorial.dir/ForLoop.c.obj"
   "CMakeFiles/tutorial.dir/FucntionCalculator.c.obj"
   "CMakeFiles/tutorial.dir/FunctionC.c.obj"
   "CMakeFiles/tutorial.dir/FunctionPasByValue.c.obj"
+  "CMakeFiles/tutorial.dir/FunctionPointerReference.c.obj"
   "CMakeFiles/tutorial.dir/HelloWorld.c.obj"
   "CMakeFiles/tutorial.dir/InputArray.c.obj"
+  "CMakeFiles/tutorial.dir/PointerOneDArray.c.obj"
   "CMakeFiles/tutorial.dir/arrayArgs.c.obj"
   "CMakeFiles/tutorial.dir/ifstatement.c.obj"
   "CMakeFiles/tutorial.dir/ifstatementcalculator.c.obj"
