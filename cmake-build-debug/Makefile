@@ -176,6 +176,30 @@ FunctionC.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/FunctionC.c.s
 .PHONY : FunctionC.c.s
 
+HelloWorld.obj: HelloWorld.c.obj
+.PHONY : HelloWorld.obj
+
+# target to build an object file
+HelloWorld.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/HelloWorld.c.obj
+.PHONY : HelloWorld.c.obj
+
+HelloWorld.i: HelloWorld.c.i
+.PHONY : HelloWorld.i
+
+# target to preprocess a source file
+HelloWorld.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/HelloWorld.c.i
+.PHONY : HelloWorld.c.i
+
+HelloWorld.s: HelloWorld.c.s
+.PHONY : HelloWorld.s
+
+# target to generate assembly for a file
+HelloWorld.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/HelloWorld.c.s
+.PHONY : HelloWorld.c.s
+
 InputArray.obj: InputArray.c.obj
 .PHONY : InputArray.obj
 
@@ -383,6 +407,9 @@ help:
 	@echo ... FunctionC.obj
 	@echo ... FunctionC.i
 	@echo ... FunctionC.s
+	@echo ... HelloWorld.obj
+	@echo ... HelloWorld.i
+	@echo ... HelloWorld.s
 	@echo ... InputArray.obj
 	@echo ... InputArray.i
 	@echo ... InputArray.s
